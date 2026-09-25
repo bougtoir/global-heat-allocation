@@ -1,0 +1,4 @@
+horizon_hours,latitude,longitude,distance_from_sink_km,distance_from_source_km,gaussian_dispersion_radius_km,nearest_cell_population,nearest_cell_cryosphere,energy_retained_fraction,model_scope
+24,30.182743098807823,93.15400149239856,418.95846314647457,774.4251138107226,13.145341380123988,163353.41871929978,True,1.0,10m-wind Lagrangian trajectory with assumed Gaussian dispersion; not a climate or heat-transport model
+72,34.66999196712234,90.37592743572783,784.8936280477266,1208.214101857614,22.768399153212332,0.0,True,1.0,10m-wind Lagrangian trajectory with assumed Gaussian dispersion; not a climate or heat-transport model
+168,31.192859833233072,90.36698541802862,399.0257354736087,821.8220945866568,34.77930419085465,52724.072595342644,False,1.0,10m-wind Lagrangian trajectory with assumed Gaussian dispersion; not a climate or heat-transport model

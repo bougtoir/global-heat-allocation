@@ -1,0 +1,8 @@
+metric,value,unit,interpretation
+expected_10_minute_intervals,52560.0,count,Complete non-leap calendar year at 10-minute resolution.
+workbook_rows,49870.0,count,Includes the workbook units row.
+missing_timestamps,2691.0,count,Unobserved intervals; no energy is imputed.
+valid_waste_heat_observations,49869.0,count,Numeric measured waste-heat observations.
+observed_waste_heat_energy,75573.59055081538,MWh_th_observed,Sum of measured MW times 1/6 hour; not a complete-year estimate.
+source_available_for_1_mw_output,0.9949668130501915,fraction_of_valid_observations,Measured source heat exceeds 0.675325 MW; demand coincidence and dispatch are not evaluated.
+source_available_for_2_mw_output,0.9923399306182198,fraction_of_valid_observations,Measured source heat exceeds 1.350649 MW; demand coincidence and dispatch are not evaluated.

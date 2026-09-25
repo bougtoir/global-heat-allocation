@@ -1,0 +1,15 @@
+provider,product,version,role,license_terms,completion
+Natural Earth,Admin 0 countries,"5.1.2, 1:110m",country_boundaries,Public domain,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,downward_longwave_flux,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,downward_shortwave_flux,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,eastward_wind_10m,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,invariant Gaussian grid,land_fraction,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,near_surface_air_temperature,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,near_surface_specific_humidity,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,northward_wind_10m,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,sea_ice_fraction,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,snow_water_equivalent,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,surface_pressure,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,upward_longwave_flux,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+NOAA Physical Sciences Laboratory,NCEP/NCAR Reanalysis 1,2023 annual file,upward_shortwave_flux,Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested,complete
+WorldPop,Unconstrained global population mosaic at 30 arc seconds,2020,population_count,Creative Commons Attribution 4.0 International,complete

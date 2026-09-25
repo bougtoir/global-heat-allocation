@@ -1,0 +1,4 @@
+metric,source_country,scenarios,minimum_source_marginal,maximum_source_marginal
+air_temperature,Bangladesh,3,447.6956174948293,560.6787495060529
+humidex,Bangladesh,27,7.061445750701479,84270.76383057842
+wet_bulb_proxy,Bangladesh,3,34.22076982811226,65.7916867299782

@@ -1,0 +1,22 @@
+# Journal of Cleaner Production submission checklist
+
+- [x] Original Article selected
+- [x] Main-text word count is 6040, within the 6000-8000 target
+- [x] Forty-eight verified references, below the 50-reference limit
+- [x] Abstract and keywords included
+- [x] Highlights supplied separately
+- [x] Graphical abstract supplied as PNG and editable PPTX
+- [x] Six main figures supplied as PNG, SVG, and vector PDF
+- [x] Five main tables included in the manuscript
+- [x] Tables avoid vertical rules and cell shading
+- [x] Supplementary diagnostics separated from the main figures
+- [x] Data and code availability statement included
+- [x] Generative-AI disclosure included
+- [x] No burden-unit/MWh-th/USD/CO2e composite score
+- [x] No claim of planetary cooling, health benefit, or a validated safe sink
+- [x] Final live JCP Guide for Authors check completed on 2026-09-25
+- [ ] AUTHOR ACTION: confirm affiliation and postal address
+- [ ] AUTHOR ACTION: confirm the CRediT authorship contribution statement
+- [ ] AUTHOR ACTION: confirm funding statement
+- [ ] AUTHOR ACTION: confirm competing-interest declaration
+- [ ] AUTHOR ACTION: archive the repository and insert its DOI

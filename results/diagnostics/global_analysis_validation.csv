@@ -1,0 +1,10 @@
+check,status,detail
+scenario_count,pass,rows=94 expected=94
+finite_objectives,pass,all net benefits finite
+unique_scenarios,pass,scenario keys unique
+objective_identity,pass,source - sink - transport - storage
+distance_limits,pass,all constrained distances within configured limit
+temporal_same_location,pass,all temporal transfers remain at one grid cell
+cube_lookup,pass,93 constrained rows match canonical cube
+energy_conservation,pass,each scenario removes and releases exactly one GJ
+no_relocation_comparison_retained,pass,canonical results retain positive and no-relocation-dominated cases

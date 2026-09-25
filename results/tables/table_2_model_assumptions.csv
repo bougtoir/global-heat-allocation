@@ -1,0 +1,10 @@
+assumption,value,unit
+Canonical transferred energy,1.0,GJ
+Atmospheric mixing height,100.0,m
+Air density,1.225,kg m-3
+Air heat capacity,1005.0,J kg-1 K-1
+Humidex reference,26.0,degrees C equivalent
+Burden curvature,2.0,dimensionless
+Maximum transfer distance,5000.0,km
+Local heat-load cap,1000000.0,GJ
+Maximum local temperature perturbation,0.1,K

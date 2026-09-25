@@ -1,0 +1,32 @@
+check,passed,observed
+timeseries_row_count,True,367920 of 367920
+nonnegative_source_heat_available_mwh,True,0.0
+nonnegative_source_heat_used_mwh,True,0.0
+nonnegative_residual_source_rejection_mwh,True,0.0
+nonnegative_heat_pump_output_mwh,True,0.0
+nonnegative_heat_pump_electricity_mwh,True,0.0
+nonnegative_demand_mwh,True,0.0
+nonnegative_direct_heat_delivered_mwh,True,0.0
+nonnegative_storage_heat_delivered_mwh,True,0.0
+nonnegative_useful_heat_delivered_mwh,True,0.0
+nonnegative_unmet_demand_mwh,True,0.0
+nonnegative_storage_charge_input_mwh,True,0.0
+nonnegative_storage_charge_loss_mwh,True,0.0
+nonnegative_storage_discharge_loss_mwh,True,0.0
+nonnegative_storage_standing_loss_mwh,True,0.0
+nonnegative_storage_auxiliary_electricity_mwh,True,0.0
+nonnegative_storage_state_mwh,True,0.0
+timestep_thermal_balance_error_mwh,True,1.1368683772161605e-13
+timestep_source_balance_error_mwh,True,2.775557561562892e-17
+timestep_demand_balance_error_mwh,True,5.551115123125783e-17
+storage_capacity_bound,True,0.0
+heat_pump_output_power_bound,True,2.220446049250313e-16
+source_capture_bound,True,1.1102230246251565e-16
+storage_charge_power_bound,True,0.0
+storage_discharge_power_bound,True,0.0
+demand_delivery_bound,True,0.0
+residual_rejection_visible,True,63501.34458460799
+demand_saturation_visible,True,978.994598454958
+measured_demand_gate_remains_open,True,all scenarios sensitivity-only
+annual_source_reconciliation,True,7.275957614183426e-12
+annual_demand_reconciliation,True,1.5916157281026244e-12

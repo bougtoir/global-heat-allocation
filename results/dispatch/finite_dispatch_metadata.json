@@ -1,0 +1,16 @@
+{
+  "case_dispatch_gate_closed": false,
+  "config": "config/finite_dispatch.yml",
+  "config_sha256": "dd8c346ba42e23350154c3aed26bfe1b5b258cf2eacee604caef9faafac40c9a",
+  "intervals_per_scenario": 52560,
+  "scenario_count": 7,
+  "source_missing_policy": "unavailable_zero_no_imputation",
+  "source_workbook": "data/raw/real_heat_cases/frontier_figshare_v4_20260924T115656Z/frontier_hpc_facility_data_v4.xlsx",
+  "source_workbook_sha256": "56a48dd66382896890dfc2e4940ec90f894bb85795ee8e85ea2708dda05796bf",
+  "status": "sensitivity_only_missing_measured_receiving_demand",
+  "summary": "results/dispatch/finite_dispatch_summary.csv",
+  "technology_parameters": "data/metadata/technology_parameters.csv",
+  "technology_parameters_sha256": "82e13d226cd64c909573a8ca50d500ca28e299a3787e9999396c51e621b259fa",
+  "timeseries": "results/dispatch/finite_dispatch_timeseries.csv.gz",
+  "timestamp_normalization": "nearest_10_minutes_for_excel_subsecond_drift"
+}

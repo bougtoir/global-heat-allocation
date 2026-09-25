@@ -1,0 +1,2 @@
+artifact,file_size_bytes,sha256,generation_command,validation_command
+data/processed/analysis_cube_2023.nc,532354340,c0593448a6f9009eccf523caa96c451b07dc4c38bd65abdb3ce2db63d7a7c6fc,make preprocess,python scripts/validate_processed.py

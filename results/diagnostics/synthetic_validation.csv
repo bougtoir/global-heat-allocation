@@ -1,0 +1,8 @@
+check,status
+spatial_source_recovery,pass
+spatial_sink_recovery,pass
+temporal_source_recovery,pass
+temporal_release_recovery,pass
+joint_source_recovery,pass
+joint_sink_recovery,pass
+one_gj_conservation,pass

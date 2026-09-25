@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# Raw files are retained locally but large snapshots are not published from wip.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/references/
+data/raw/references/*
+!data/raw/references/crossref_*/
+!data/raw/references/crossref_*/*.json
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated packages and office lock files.
+submission/*.zip
+~$*

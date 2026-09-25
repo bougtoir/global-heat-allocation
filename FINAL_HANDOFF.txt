@@ -1,0 +1,124 @@
+JCP FINAL HANDOFF
+
+Title:
+There Is No Free Heat Sink: Detecting Environmental Burden Shifting in
+Thermal-Energy Optimization
+
+Target:
+Journal of Cleaner Production
+
+Decision:
+READY FOR AUTHOR ACTION / SUBMISSION.
+
+Primary files:
+- submission/jcp/manuscript_jcp_inline.docx
+- submission/jcp/manuscript_jcp.docx
+- submission/jcp/title_page.docx
+- submission/jcp/cover_letter.docx
+- submission/jcp/highlights.txt
+- submission/jcp/supplementary_material.docx
+- submission/jcp/graphical_abstract.png
+- submission/jcp/graphical_abstract_editable.pptx
+- submission/jcp/jcp_submission_package.zip
+
+Final audit files:
+- docs/JCP_FINAL_QC.md
+- docs/JCP_FINAL_HOSTILE_REVIEW.md
+- docs/JCP_FINAL_TRACEABILITY_FABRICATION_CONSISTENCY_AUDIT.md
+- docs/JCP_FINAL_CLEAN_BUILD_REPRODUCIBILITY.md
+- docs/JCP_FINAL_GO_WEAKGO_NOGO.md
+- docs/JCP_LAST_MILE_RULE_CHECK.md
+
+Verification:
+- make lint: passed
+- make test: 86 passed
+- make verify-references: 109 files in 4 snapshots verified
+- make jcp-qc: passed
+- deterministic regeneration of figures, tables, submission files, and final QC: passed
+- ZIP integrity and exact membership: passed, 45 files
+- final DOCX/PDF visual render inspection: passed
+- manuscript_jcp.docx render: 36 pages
+- manuscript_jcp_inline.docx render: 24 pages
+- supplementary_material.docx render: 7 landscape pages
+- title_page.docx render: 2 pages
+- cover_letter.docx render: 1 page
+
+Submission ZIP SHA-256:
+1150db52b056b76e857356eef008d6358c6b4b4251dfe51e3b4296d4a3e70a05
+
+Key artifact SHA-256 values:
+- manuscript_jcp.docx:
+  1eeafbc10032b84e0c80cf993ca49f89f7d8bb8a4b73169aae2a809efff7aec6
+- manuscript_jcp_inline.docx:
+  e48afa236cf8e116391d91e15b6fa4c41df7cdaa2b4fcf5d2c4d5b0bad788c13
+- title_page.docx:
+  4ca73335af5fdcbd73c4f267bd4fe073015cb882b9c814576e29569a3124343e
+- cover_letter.docx:
+  296bd443724ddfd1d5d3345e42eb16cd7851e44c28699a81ab2757b224c8ed32
+- supplementary_material.docx:
+  634ac07bd77bd453077f0c9e658fabea7137dd40c626f47ca865acca377735e7
+- graphical_abstract.png:
+  4c41aa3971a13c3c45108e68f05bb6dc3ef9646d7273b8a6df40e8eb5a64dc6c
+- graphical_abstract_editable.pptx:
+  78251acd47d31e301d724f3c6ecbecb210d9e08fa155b5839827f9062da4f765
+
+Exact ZIP membership:
+- cover_letter.docx
+- figures/figure_1.pdf
+- figures/figure_1.png
+- figures/figure_1.svg
+- figures/figure_2.pdf
+- figures/figure_2.png
+- figures/figure_2.svg
+- figures/figure_3.pdf
+- figures/figure_3.png
+- figures/figure_3.svg
+- figures/figure_4.pdf
+- figures/figure_4.png
+- figures/figure_4.svg
+- figures/figure_5.pdf
+- figures/figure_5.png
+- figures/figure_5.svg
+- figures/figure_6.pdf
+- figures/figure_6.png
+- figures/figure_6.svg
+- figures/supplementary_figure_s1.pdf
+- figures/supplementary_figure_s1.png
+- figures/supplementary_figure_s1.svg
+- figures/supplementary_figure_s2.pdf
+- figures/supplementary_figure_s2.png
+- figures/supplementary_figure_s2.svg
+- figures/supplementary_figure_s3.pdf
+- figures/supplementary_figure_s3.png
+- figures/supplementary_figure_s3.svg
+- figures/supplementary_figure_s4.pdf
+- figures/supplementary_figure_s4.png
+- figures/supplementary_figure_s4.svg
+- figures/supplementary_figure_s5.pdf
+- figures/supplementary_figure_s5.png
+- figures/supplementary_figure_s5.svg
+- figures/supplementary_figure_s6.pdf
+- figures/supplementary_figure_s6.png
+- figures/supplementary_figure_s6.svg
+- graphical_abstract.png
+- graphical_abstract_editable.pptx
+- highlights.txt
+- manuscript_jcp.docx
+- manuscript_jcp_inline.docx
+- submission_checklist.md
+- supplementary_material.docx
+- title_page.docx
+
+Remaining AUTHOR ACTION items:
+- confirm affiliation, postal address, and ORCID
+- confirm funding
+- confirm competing interests
+- confirm institutional statement requirements
+- confirm final author approval and originality declarations
+- confirm and insert the complete CRediT authorship contribution statement
+- confirm any required suggested reviewers
+- archive the public repository and insert its permanent DOI
+
+Interpretation:
+The terminal zero means zero evidence-supported practical modes, not zero heat,
+zero demand, zero technical possibility, or proof that reuse cannot work.

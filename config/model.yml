@@ -1,0 +1,59 @@
+project:
+  title: "There Is No Free Heat Sink: Detecting Environmental Burden Shifting in Thermal-Energy Optimization"
+  target_journal: "Journal of Cleaner Production"
+  random_seed: 20260924
+
+grid:
+  synthetic_latitude_cells: 18
+  synthetic_longitude_cells: 36
+  synthetic_time_steps: 8
+  global_grid: "NCEP T62 Gaussian 94x192 (1.875-degree longitude spacing)"
+  global_time_step_hours: 6
+
+energy:
+  canonical_unit: "GJ"
+  perturbation_gj: 1.0
+  atmospheric_mixing_height_m: 100.0
+  air_density_kg_m3: 1.225
+  air_heat_capacity_j_kg_k: 1005.0
+
+stress:
+  primary_metric: "humidex"
+  alternatives:
+    - air_temperature
+    - wet_bulb_proxy
+  reference_temperature_c: 26.0
+  curvature: 2.0
+
+optimization:
+  maximum_candidate_distance_km: 5000.0
+  nearest_sink_candidates: 12
+  local_load_cap_gj: 1000000.0
+  storage_windows_hours:
+    - 6
+    - 12
+    - 18
+  transport_penalty_burden_per_gj_km:
+    - 0.0
+    - 0.000001
+    - 0.00001
+    - 0.0001
+    - 0.001
+    - 0.01
+    - 0.1
+    - 1.0
+    - 5.0
+  storage_penalty_burden_per_gj_step:
+    - 0.0
+    - 0.01
+    - 0.1
+    - 1.0
+    - 10.0
+    - 100.0
+    - 300.0
+
+safety:
+  prohibit_cryosphere_primary: true
+  prohibit_open_ocean_primary: true
+  polar_latitude_threshold_degrees: 60.0
+  maximum_local_delta_temperature_k: 0.1

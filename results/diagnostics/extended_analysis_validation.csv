@@ -1,0 +1,15 @@
+check,passed,value,criterion
+matched_event_common_source,True,1,all modes use one source cell-time
+matched_event_objective_identity,True,0.0,net benefit equals source minus sink burden
+matched_event_candidate_multiplicity,True,422,report at least one optimal and near-optimal candidate
+safety_ablation_scenario_count,True,5,five progressive safety scenarios
+ocean_exclusion_removes_ocean_sink,True,0,zero ocean sinks after ocean exclusion
+finite_q_objective_identity,True,0.0,absolute error below 1e-6
+finite_q_per_gj_nonincreasing,True,777.760201;777.757364;777.476242,convex burden prevents increasing per-GJ benefit
+one_million_gj_capacity_infeasible,True,543536.7440551589,maximum 0.1-K cell capacity below 1e6 GJ
+seasonal_local_period_coverage,True,8,four seasons by day/night
+seasonal_summary_nonnegative,True,299.16064453125,all summary burdens nonnegative
+redistribution_horizon_coverage,True,24;72;168,"24, 72, and 168 hours"
+trajectory_energy_conservation,True,1.0,unit energy retained in diagnostic trajectory
+trajectory_flags_cryosphere_encounter,True,17,"diagnostic retains, rather than suppresses, encounter"
+radiation_is_explicitly_noncausal,True,2,every row carries noncausal interpretation

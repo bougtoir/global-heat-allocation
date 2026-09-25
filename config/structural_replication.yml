@@ -1,0 +1,99 @@
+analysis:
+  maximum_distance_km: 5000.0
+  maximum_temporal_lag_steps: 3
+  near_optimal_fraction: 0.01
+  high_transport_penalty_burden_per_gj_km: 5.0
+
+climate_datasets:
+  ncep1_2010:
+    product: NCEP/NCAR Reanalysis 1
+    year: 2010
+    base_directory: data/raw/structural_replication/ncep_reanalysis_1/2010
+    land_path: data/raw/ncep_reanalysis_1/invariant/land.sfc.gauss.nc
+  ncep1_2015:
+    product: NCEP/NCAR Reanalysis 1
+    year: 2015
+    base_directory: data/raw/structural_replication/ncep_reanalysis_1/2015
+    land_path: data/raw/ncep_reanalysis_1/invariant/land.sfc.gauss.nc
+  ncep1_2020:
+    product: NCEP/NCAR Reanalysis 1
+    year: 2020
+    base_directory: data/raw/structural_replication/ncep_reanalysis_1/2020
+    land_path: data/raw/ncep_reanalysis_1/invariant/land.sfc.gauss.nc
+  ncep1_2023:
+    product: NCEP/NCAR Reanalysis 1
+    year: 2023
+    base_directory: data/raw/ncep_reanalysis_1/2023
+    land_path: data/raw/ncep_reanalysis_1/invariant/land.sfc.gauss.nc
+  ncep2_2023:
+    product: NCEP-DOE Reanalysis 2
+    year: 2023
+    base_directory: data/raw/structural_replication/ncep_reanalysis_2/2023
+    land_path: data/raw/structural_replication/ncep_reanalysis_2/invariant/land.sfc.gauss.nc
+
+population_datasets:
+  worldpop_2020:
+    product: WorldPop unconstrained
+    year: 2020
+    raster_path: data/raw/worldpop/2020/ppp_2020_1km_Aggregated.tif
+  ghsl_2020:
+    product: GHS-POP R2023A
+    year: 2020
+    archive_path: data/raw/structural_replication/ghsl_r2023a/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0.zip
+    archive_member: GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0.tif
+
+scenarios:
+  - scenario_id: ncep1_2010_worldpop_native_humidex
+    climate_dataset: ncep1_2010
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep1_2015_worldpop_native_humidex
+    climate_dataset: ncep1_2015
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep1_2020_worldpop_native_humidex
+    climate_dataset: ncep1_2020
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep1_2023_worldpop_native_humidex
+    climate_dataset: ncep1_2023
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep2_2023_worldpop_native_humidex
+    climate_dataset: ncep2_2023
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep1_2023_ghsl_native_humidex
+    climate_dataset: ncep1_2023
+    population_dataset: ghsl_2020
+    spatial_coarsening_factor: 1
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep1_2023_worldpop_coarse_humidex
+    climate_dataset: ncep1_2023
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 2
+    metric: humidex
+    threshold: 26.0
+  - scenario_id: ncep1_2023_worldpop_native_air_temperature
+    climate_dataset: ncep1_2023
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: air_temperature
+    threshold: 26.0
+  - scenario_id: ncep1_2023_worldpop_native_wet_bulb
+    climate_dataset: ncep1_2023
+    population_dataset: worldpop_2020
+    spatial_coarsening_factor: 1
+    metric: wet_bulb_proxy
+    threshold: 24.0

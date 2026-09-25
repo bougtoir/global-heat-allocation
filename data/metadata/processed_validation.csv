@@ -1,0 +1,12 @@
+check,value,expected,absolute_tolerance,status
+time_steps,1460,1460,0,pass
+latitude_cells,94,94,0,pass
+longitude_cells,192,192,0,pass
+population_conservation,7969633181.734437,7969633181.734414,0.7969633181734415,pass
+global_surface_area,510065880972871.8,510065880972871.8,510.0658809728718,pass
+relative_humidity_min,0.0,0.0,0.0,pass
+relative_humidity_max,100.0,100.0,0.0,pass
+maximum_one_gj_temperature_change,6.957172527745388e-06,0.1,,pass
+invalid_source_cells,0,0,0,pass
+invalid_sink_cells,0,0,0,pass
+negative_human_burden_cells,0,0,0,pass

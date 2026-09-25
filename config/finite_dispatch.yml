@@ -1,0 +1,38 @@
+dispatch:
+  calendar_year: 2023
+  timestep_minutes: 10
+  source_column: Overall_WasteHeat
+  timestamp_normalization: nearest_10_minutes_for_excel_subsecond_drift
+  missing_source_policy: unavailable_zero_no_imputation
+  source_capture_efficiency_assumption: 1.0
+  initial_storage_fraction: 0.0
+
+scenarios:
+  - scenario_id: zero_demand_rejection_baseline
+    pathway_id: A
+    demand_basis: zero_demand
+    storage_basis: none
+  - scenario_id: direct_lower_demand_bound
+    pathway_id: C
+    demand_basis: reported_lower_bound
+    storage_basis: none
+  - scenario_id: direct_upper_demand_bound
+    pathway_id: C
+    demand_basis: reported_upper_bound
+    storage_basis: none
+  - scenario_id: minimum_formula_storage_lower_demand
+    pathway_id: B
+    demand_basis: reported_lower_bound
+    storage_basis: minimum_formula
+  - scenario_id: minimum_formula_storage_upper_demand
+    pathway_id: B
+    demand_basis: reported_upper_bound
+    storage_basis: minimum_formula
+  - scenario_id: generic_storage_lower_demand
+    pathway_id: B
+    demand_basis: reported_lower_bound
+    storage_basis: generic_reference
+  - scenario_id: generic_storage_upper_demand
+    pathway_id: B
+    demand_basis: reported_upper_bound
+    storage_basis: generic_reference

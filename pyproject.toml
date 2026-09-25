@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=75,<82", "wheel>=0.44,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "global-heat-allocation"
+version = "0.1.0"
+description = "Constrained optimal transport of conserved heat on a heterogeneous planet"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Tatsuki Onishi" }]
+dependencies = [
+  "numpy==2.2.6",
+  "pandas==2.3.3",
+  "openpyxl==3.1.5",
+  "scipy==1.15.3",
+  "matplotlib==3.10.9",
+  "PyYAML==6.0.2",
+  "requests==2.32.5",
+  "xarray==2025.6.1",
+  "netCDF4==1.7.2",
+  "h5netcdf==1.6.3",
+  "networkx==3.4.2",
+  "shapely==2.1.1",
+  "pyproj==3.7.1",
+  "geopandas==1.1.1",
+  "rasterio==1.4.3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.1",
+  "pytest-cov==6.2.1",
+  "ruff==0.12.8",
+]
+manuscript = [
+  "python-docx==1.2.0",
+  "python-pptx==1.0.2",
+  "Pillow==11.3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"

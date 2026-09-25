@@ -1,0 +1,654 @@
+baseline:
+  climate_product: ncep_ncar_reanalysis_1
+  climate_year: 2023
+  population_product: worldpop_unconstrained_1km
+  population_year: 2020
+
+sources:
+  - key: ncep_air_2m_2023
+    role: near_surface_air_temperature
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/air.2m.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/air.2m.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_shum_2m_2023
+    role: near_surface_specific_humidity
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/shum.2m.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/shum.2m.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_pressure_surface_2023
+    role: surface_pressure
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/pres.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/pres.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_uwind_10m_2023
+    role: eastward_wind_10m
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/uwnd.10m.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/uwnd.10m.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_vwind_10m_2023
+    role: northward_wind_10m
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/vwnd.10m.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/vwnd.10m.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_downward_shortwave_surface_2023
+    role: downward_shortwave_flux
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/dswrf.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/dswrf.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_downward_longwave_surface_2023
+    role: downward_longwave_flux
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/dlwrf.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/dlwrf.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_upward_shortwave_surface_2023
+    role: upward_shortwave_flux
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/uswrf.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/uswrf.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_upward_longwave_surface_2023
+    role: upward_longwave_flux
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/ulwrf.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/ulwrf.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_sea_ice_concentration_2023
+    role: sea_ice_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/icec.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/icec.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_snow_water_equivalent_2023
+    role: snow_water_equivalent
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/weasd.sfc.gauss.2023.nc
+    local_filename: ncep_reanalysis_1/2023/weasd.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_land_mask
+    role: land_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: invariant Gaussian grid
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/land.sfc.gauss.nc
+    local_filename: ncep_reanalysis_1/invariant/land.sfc.gauss.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_air_2m_2010
+    role: structural_replication_air_temperature
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2010 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/air.2m.gauss.2010.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2010/air.2m.gauss.2010.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_shum_2m_2010
+    role: structural_replication_specific_humidity
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2010 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/shum.2m.gauss.2010.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2010/shum.2m.gauss.2010.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_pressure_surface_2010
+    role: structural_replication_surface_pressure
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2010 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/pres.sfc.gauss.2010.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2010/pres.sfc.gauss.2010.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_sea_ice_concentration_2010
+    role: structural_replication_sea_ice_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2010 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/icec.sfc.gauss.2010.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2010/icec.sfc.gauss.2010.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_snow_water_equivalent_2010
+    role: structural_replication_snow_water_equivalent
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2010 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/weasd.sfc.gauss.2010.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2010/weasd.sfc.gauss.2010.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_air_2m_2015
+    role: structural_replication_air_temperature
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2015 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/air.2m.gauss.2015.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2015/air.2m.gauss.2015.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_shum_2m_2015
+    role: structural_replication_specific_humidity
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2015 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/shum.2m.gauss.2015.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2015/shum.2m.gauss.2015.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_pressure_surface_2015
+    role: structural_replication_surface_pressure
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2015 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/pres.sfc.gauss.2015.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2015/pres.sfc.gauss.2015.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_sea_ice_concentration_2015
+    role: structural_replication_sea_ice_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2015 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/icec.sfc.gauss.2015.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2015/icec.sfc.gauss.2015.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_snow_water_equivalent_2015
+    role: structural_replication_snow_water_equivalent
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2015 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/weasd.sfc.gauss.2015.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2015/weasd.sfc.gauss.2015.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_air_2m_2020
+    role: structural_replication_air_temperature
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2020 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/air.2m.gauss.2020.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2020/air.2m.gauss.2020.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_shum_2m_2020
+    role: structural_replication_specific_humidity
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2020 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/shum.2m.gauss.2020.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2020/shum.2m.gauss.2020.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_pressure_surface_2020
+    role: structural_replication_surface_pressure
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2020 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/pres.sfc.gauss.2020.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2020/pres.sfc.gauss.2020.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_sea_ice_concentration_2020
+    role: structural_replication_sea_ice_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2020 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/icec.sfc.gauss.2020.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2020/icec.sfc.gauss.2020.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep_snow_water_equivalent_2020
+    role: structural_replication_snow_water_equivalent
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP/NCAR Reanalysis 1
+    version: 2020 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis/surface_gauss/weasd.sfc.gauss.2020.nc
+    local_filename: structural_replication/ncep_reanalysis_1/2020/weasd.sfc.gauss.2020.nc
+    license_terms: Publicly available NOAA/NCAR data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep2_air_2m_2023
+    role: structural_replication_air_temperature
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP-DOE Reanalysis 2
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis2/gaussian_grid/air.2m.gauss.2023.nc
+    local_filename: structural_replication/ncep_reanalysis_2/2023/air.2m.gauss.2023.nc
+    license_terms: Publicly available NOAA/DOE data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep2_shum_2m_2023
+    role: structural_replication_specific_humidity
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP-DOE Reanalysis 2
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis2/gaussian_grid/shum.2m.gauss.2023.nc
+    local_filename: structural_replication/ncep_reanalysis_2/2023/shum.2m.gauss.2023.nc
+    license_terms: Publicly available NOAA/DOE data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep2_pressure_surface_2023
+    role: structural_replication_surface_pressure
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP-DOE Reanalysis 2
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis2/gaussian_grid/pres.sfc.gauss.2023.nc
+    local_filename: structural_replication/ncep_reanalysis_2/2023/pres.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/DOE data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep2_sea_ice_concentration_2023
+    role: structural_replication_sea_ice_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP-DOE Reanalysis 2
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis2/gaussian_grid/icec.sfc.gauss.2023.nc
+    local_filename: structural_replication/ncep_reanalysis_2/2023/icec.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/DOE data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep2_snow_water_equivalent_2023
+    role: structural_replication_snow_water_equivalent
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP-DOE Reanalysis 2
+    version: 2023 annual file
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis2/gaussian_grid/weasd.sfc.gauss.2023.nc
+    local_filename: structural_replication/ncep_reanalysis_2/2023/weasd.sfc.gauss.2023.nc
+    license_terms: Publicly available NOAA/DOE data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ncep2_land_mask
+    role: structural_replication_land_fraction
+    provider: NOAA Physical Sciences Laboratory
+    product: NCEP-DOE Reanalysis 2
+    version: invariant Gaussian grid
+    url: https://downloads.psl.noaa.gov/Datasets/ncep.reanalysis2/gaussian_grid/land.sfc.gauss.nc
+    local_filename: structural_replication/ncep_reanalysis_2/invariant/land.sfc.gauss.nc
+    license_terms: Publicly available NOAA/DOE data; NOAA PSL acknowledgement requested
+    acquire: true
+  - key: ghsl_population_2020_r2023a
+    role: structural_replication_population_count
+    provider: European Commission Joint Research Centre
+    product: GHS-POP R2023A resident population grid
+    version: "2020 epoch; WGS84 30 arc-second V1.0"
+    url: https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/GHS_POP_E2020_GLOBE_R2023A_4326_30ss/V1-0/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0.zip
+    local_filename: structural_replication/ghsl_r2023a/GHS_POP_E2020_GLOBE_R2023A_4326_30ss_V1_0.zip
+    license_terms: European Commission reuse authorised with source acknowledgement
+    acquire: true
+  - key: worldpop_population_2020
+    role: population_count
+    provider: WorldPop
+    product: Unconstrained global population mosaic at 30 arc seconds
+    version: 2020
+    url: https://data.worldpop.org/GIS/Population/Global_2000_2020/2020/0_Mosaicked/ppp_2020_1km_Aggregated.tif
+    local_filename: worldpop/2020/ppp_2020_1km_Aggregated.tif
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: natural_earth_countries_110m
+    role: country_boundaries
+    provider: Natural Earth
+    product: Admin 0 countries
+    version: 5.1.2, 1:110m
+    url: https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip
+    local_filename: natural_earth/5.1.2/ne_110m_admin_0_countries.zip
+    license_terms: Public domain
+    acquire: true
+  - key: frontier_hpc_facility_data_v4
+    role: real_case_heat_source_timeseries
+    provider: Oak Ridge National Laboratory via Figshare
+    product: Frontier HPC & Facility Data
+    version: 4
+    url: https://ndownloader.figshare.com/files/47812750
+    local_filename: real_heat_cases/frontier_figshare_v4_20260924T115656Z/frontier_hpc_facility_data_v4.xlsx
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: frontier_hpc_figshare_metadata_v4
+    role: real_case_source_metadata
+    provider: Figshare
+    product: Frontier HPC & Facility Data article metadata
+    version: 4
+    url: https://api.figshare.com/v2/articles/24391240
+    local_filename: real_heat_cases/frontier_figshare_v4_20260924T115656Z/figshare_article_24391240_v4.json
+    license_terms: Dataset metadata records CC BY 4.0 data; Figshare website terms apply to the API response
+    acquire: true
+  - key: frontier_ornl_showcase_report
+    role: real_case_engineering_assessment
+    provider: Oak Ridge National Laboratory
+    product: ORNL/TM-2023/3218
+    version: October 2023
+    url: https://info.ornl.gov/sites/publications/Files/Pub207081.pdf
+    local_filename: real_heat_cases/frontier_figshare_v4_20260924T115656Z/ornl_showcase_report_2329591.pdf
+    license_terms: Publicly available US Department of Energy technical report; verify reuse rights before redistribution
+    acquire: true
+  - key: frontier_scientific_data_article
+    role: real_case_dataset_description
+    provider: Springer Nature via OSTI
+    product: Scientific Data article 11:1391
+    version: 2024
+    url: https://www.osti.gov/servlets/purl/2483448
+    local_filename: real_heat_cases/frontier_figshare_v4_20260924T115656Z/scientific_data_2024_03913.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: osti_record_2329591
+    role: case_report_official_metadata
+    provider: U.S. Department of Energy Office of Scientific and Technical Information
+    product: OSTI bibliographic metadata record 2329591
+    version: record accessed 2026-09-25
+    url: https://www.osti.gov/api/v1/records/2329591?format=json
+    local_filename: real_heat_cases/frontier_case_evidence_20260925/osti_record_2329591_api_json.json
+    license_terms: Publicly available U.S. Department of Energy metadata; OSTI terms apply
+    acquire: true
+  - key: ornl_publication_page_2329591
+    role: case_report_official_publication_page
+    provider: Oak Ridge National Laboratory
+    product: ORNL publication page for ORNL/TM-2023/3218
+    version: page accessed 2026-09-25
+    url: https://www.ornl.gov/publication/ornl-campus-sustainability-and-decarbonization-using-waste-heat-recovery-oak-ridge
+    local_filename: real_heat_cases/frontier_case_evidence_20260925/ornl_publication_page_2329591.html
+    license_terms: Publicly available Oak Ridge National Laboratory web page; ORNL website terms apply
+    acquire: true
+  - key: ornl_main_campus_map_2025
+    role: case_building_location_context
+    provider: Oak Ridge National Laboratory
+    product: ORNL Main Campus and Key map
+    version: 2025-G01069; print file dated 2025-03-06
+    url: https://www.ornl.gov/file/ornl-main-campus-and-key/display
+    local_filename: real_heat_cases/frontier_case_evidence_20260925/ornl_main_campus_and_key_2025.pdf
+    license_terms: Publicly available Oak Ridge National Laboratory map; verify reuse rights before redistribution
+    acquire: true
+  - key: tdec_tn0002941_compliance_inspection_2025
+    role: case_npdes_permit_context
+    provider: Tennessee Department of Environment and Conservation
+    product: Compliance Evaluation Inspection for Oak Ridge National Laboratory NPDES Permit TN0002941
+    version: inspection letter dated 2025-05-12
+    url: https://dataviewers.tdec.tn.gov/dataviewers/apex_util.count_click?p_cat=DOCS&p_id=265744105137943080&p_url=BGWPC.GET_WPC_DOCUMENTS%3Fp_file%3D265744105137943080&p_user=GUEST&p_workspace=19833722515258996
+    referer: https://dataviewers.tdec.tn.gov/dataviewers/f?p=2005:34001
+    retrieval_conditions: Anonymous HTTPS full-file download from TDEC document viewer using a browser-like user agent and viewer referrer; PDF response saved
+    local_filename: environmental_sources/case_specific_20260925/tdec_tn0002941_compliance_inspection_2025.pdf
+    license_terms: Publicly available Tennessee state regulatory record; TDEC website terms apply
+    acquire: true
+  - key: sonderborg_zenodo_metadata_7972964
+    role: validation_case_source_metadata
+    provider: Zenodo
+    product: Sønderborg district-heating network data
+    version: record 7972964
+    url: https://zenodo.org/api/records/7972964
+    local_filename: real_heat_cases/sonderborg_zenodo_7972964_20260924T115656Z/zenodo_record_7972964.json
+    license_terms: Dataset metadata records CC BY 4.0 data; Zenodo website terms apply to the API response
+    acquire: true
+  - key: sonderborg_raw_workbooks_7972964
+    role: validation_case_raw_measurements
+    provider: Zenodo
+    product: Sønderborg district-heating raw workbooks
+    version: record 7972964
+    url: https://zenodo.org/api/records/7972964/files/raw%20data.zip/content
+    local_filename: real_heat_cases/sonderborg_zenodo_7972964_20260924T115656Z/raw_data.zip
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: sonderborg_processed_2016
+    role: validation_case_heat_demand_timeseries
+    provider: Zenodo
+    product: Sønderborg district-heating measurements
+    version: 2016; record 7972964
+    url: https://zenodo.org/api/records/7972964/files/sfjv_dhs_data_2016.csv/content
+    local_filename: real_heat_cases/sonderborg_zenodo_7972964_20260924T115656Z/sfjv_dhs_data_2016.csv
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: sonderborg_processed_2017
+    role: validation_case_heat_demand_timeseries
+    provider: Zenodo
+    product: Sønderborg district-heating measurements
+    version: 2017; record 7972964
+    url: https://zenodo.org/api/records/7972964/files/sfjv_dhs_data_2017.csv/content
+    local_filename: real_heat_cases/sonderborg_zenodo_7972964_20260924T115656Z/sfjv_dhs_data_2017.csv
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: sonderborg_processed_2018
+    role: validation_case_heat_demand_timeseries
+    provider: Zenodo
+    product: Sønderborg district-heating measurements
+    version: 2018; record 7972964
+    url: https://zenodo.org/api/records/7972964/files/sfjv_dhs_data_2018.csv/content
+    local_filename: real_heat_cases/sonderborg_zenodo_7972964_20260924T115656Z/sfjv_dhs_data_2018.csv
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: sonderborg_processed_2019
+    role: validation_case_heat_demand_timeseries
+    provider: Zenodo
+    product: Sønderborg district-heating measurements
+    version: 2019; record 7972964
+    url: https://zenodo.org/api/records/7972964/files/sfjv_dhs_data_2019.csv/content
+    local_filename: real_heat_cases/sonderborg_zenodo_7972964_20260924T115656Z/sfjv_dhs_data_2019.csv
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_energy_storage_catalogue_v0008
+    role: thermal_storage_technology_reference_superseded
+    provider: Danish Energy Agency and Energinet
+    product: Technology Data for Energy Storage
+    version: "0008; April 2024 amendment"
+    url: https://ens.dk/media/3416/download
+    local_filename: technology_sources/phase_c_20260924/denmark_energy_storage_catalogue_v0008.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_energy_plants_catalogue_v0017
+    role: heat_pump_technology_reference_superseded
+    provider: Danish Energy Agency and Energinet
+    product: Technology Data for Energy Plants
+    version: "0017; May 2025 (local filename records the heat-pump chapter's 0012 update)"
+    url: https://ens.dk/media/6571/download
+    local_filename: technology_sources/phase_c_20260924/denmark_energy_plants_catalogue_v0012.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: carrier_61xwhze_brochure
+    role: case_heat_pump_manufacturer_reference
+    provider: Carrier
+    product: AquaForce 61XWHZE high-temperature heat-pump brochure
+    version: "PDF published April 2024"
+    url: https://www.carrier.com/commercial/en/eu/media/carrier-61xwhze-en_tcm201-59431.pdf
+    local_filename: technology_sources/phase_c_20260924/carrier_61xwhze_brochure.pdf
+    license_terms: Publicly available manufacturer brochure; Carrier copyright and website terms apply
+    acquire: true
+  - key: cooldh_network_design_report_d2_7
+    role: district_heat_network_comparator
+    provider: COOL DH Horizon 2020 consortium
+    product: Deliverable D2.7, New design concepts for optimisation of LTDH distribution systems
+    version: "Revision 1.0; March 2019"
+    url: https://www.cooldh.eu/wp-content/uploads/2019/03/D2.7.pdf
+    local_filename: technology_sources/phase_c_20260924/cooldh_innovative_network_design_report_d2_7.pdf
+    license_terms: Public EU Horizon 2020 deliverable; consortium and website reuse terms apply
+    acquire: true
+  - key: denmark_energy_plants_catalogue_v0019
+    role: current_heat_pump_technology_reference
+    provider: Danish Energy Agency
+    product: Technology Data for Electricity and District Heating Production
+    version: "0019; September 2026"
+    url: https://ens.dk/media/8614/download
+    local_filename: technology_sources/phase_c_20260924/denmark_energy_plants_catalogue_v0019.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_energy_plants_datasheets_2026_08
+    role: current_heat_pump_technology_parameters
+    provider: Danish Energy Agency
+    product: Data sheets for electricity and district heat production
+    version: "August 2026"
+    url: https://ens.dk/media/8615/download
+    local_filename: technology_sources/phase_c_20260924/denmark_energy_plants_datasheets_2026-08.xlsx
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_large_heat_pumps_technology_brief_2026
+    role: current_heat_pump_update_context
+    provider: Danish Energy Agency
+    product: Technology Brief - Update for large heat pumps, geothermal, electric and gas boilers
+    version: "June 2026"
+    url: https://ens.dk/media/8616/download
+    local_filename: technology_sources/phase_c_20260924/denmark_large_heat_pumps_technology_brief_2026.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_energy_storage_catalogue_v0011
+    role: current_thermal_storage_technology_reference
+    provider: Danish Energy Agency
+    product: Technology Data Catalogue for Energy Storage
+    version: "0011; July 2026"
+    url: https://ens.dk/media/6588/download
+    local_filename: technology_sources/phase_c_20260924/denmark_energy_storage_catalogue_v0011.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_energy_storage_datasheets_v0011
+    role: current_thermal_storage_technology_parameters
+    provider: Danish Energy Agency
+    product: Technology data sheets for energy storage
+    version: "0011; July 2026"
+    url: https://ens.dk/media/6589/download
+    local_filename: technology_sources/phase_c_20260924/denmark_energy_storage_datasheets_v0011.xlsx
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: denmark_tank_thermal_energy_storage_brief_2026
+    role: current_thermal_storage_update_context
+    provider: Danish Energy Agency
+    product: Technology Brief - Tank thermal energy storage
+    version: "July 2026"
+    url: https://ens.dk/media/8676/download
+    local_filename: technology_sources/phase_c_20260924/denmark_tank_thermal_energy_storage_brief_2026.pdf
+    license_terms: Creative Commons Attribution 4.0 International
+    acquire: true
+  - key: eia_tennessee_commercial_electricity_2025
+    role: case_operational_electricity_price
+    provider: U.S. Energy Information Administration
+    product: Tennessee commercial-sector monthly electricity sales, revenue, and price
+    version: "calendar year 2025; EIA API v2 response"
+    url: "https://api.eia.gov/v2/electricity/retail-sales/data?api_key=DEMO_KEY&frequency=monthly&data[0]=price&data[1]=revenue&data[2]=sales&facets[stateid][]=TN&facets[sectorid][]=COM&start=2025-01&end=2025-12&sort[0][column]=period&sort[0][direction]=asc&offset=0&length=5000"
+    local_filename: techno_economic_sources/phase_d_20260924/eia_tennessee_commercial_electricity_2025.json
+    license_terms: U.S. federal government public data; EIA API terms apply
+    acquire: true
+  - key: eia_tennessee_commercial_natural_gas_2025
+    role: case_avoided_natural_gas_price
+    provider: U.S. Energy Information Administration
+    product: Tennessee annual natural-gas price delivered to commercial consumers
+    version: "calendar year 2025; EIA API v2 response"
+    url: "https://api.eia.gov/v2/natural-gas/pri/sum/data/?api_key=DEMO_KEY&frequency=annual&data[0]=value&facets[duoarea][]=STN&facets[process][]=PCS&start=2025&end=2025&sort[0][column]=period&sort[0][direction]=asc&offset=0&length=5000"
+    local_filename: techno_economic_sources/phase_d_20260924/eia_tennessee_commercial_natural_gas_2025.json
+    license_terms: U.S. federal government public data; EIA API terms apply
+    acquire: true
+  - key: epa_ghg_emission_factors_hub_2025
+    role: operational_emission_factors
+    provider: U.S. Environmental Protection Agency
+    product: GHG Emission Factors Hub
+    version: "2025 annual update; January 2025"
+    url: https://www.epa.gov/system/files/other-files/2025-01/ghg-emission-factors-hub-2025.xlsx
+    local_filename: techno_economic_sources/phase_d_20260924/ghg_emission_factors_hub_2025.xlsx
+    license_terms: U.S. federal government public information; verify embedded third-party source terms
+    acquire: true
+  - key: epa_egrid_summary_tables_2023_rev2
+    role: electricity_grid_emission_factor_crosscheck
+    provider: U.S. Environmental Protection Agency
+    product: eGRID 2023 Summary Tables
+    version: "2023 data; revision 2 released June 12, 2025"
+    url: https://www.epa.gov/system/files/documents/2025-06/summary_tables_rev2.xlsx
+    local_filename: techno_economic_sources/phase_d_20260924/egrid2023_summary_tables_rev2.xlsx
+    license_terms: U.S. federal government public information; eGRID terms apply
+    acquire: true
+  - key: nist_femp_annual_supplement_2025
+    role: discounting_and_energy_price_escalation_method
+    provider: National Institute of Standards and Technology
+    product: Energy Price Indices and Discount Factors for Life-Cycle Cost Analysis
+    version: "NISTIR 85-3273-40; 2025 annual supplement"
+    url: https://nvlpubs.nist.gov/nistpubs/ir/2025/NIST.IR.85-3273-40.pdf
+    local_filename: techno_economic_sources/phase_d_20260924/nist_ir_85_3273_40_2025.pdf
+    license_terms: U.S. federal government work; NIST publication terms apply
+    acquire: true
+  - key: doe_steam_generation_efficiency_training
+    role: natural_gas_steam_boiler_efficiency_reference
+    provider: U.S. Department of Energy
+    product: Steam Generation Efficiency - Efficiency Definition Module
+    version: "BestPractices Steam training module; accessed 2026-09-24"
+    url: https://www1.eere.energy.gov/manufacturing/pdfs/efficiencydefinition.pdf
+    local_filename: techno_economic_sources/phase_d_20260924/doe_steam_generation_efficiency.pdf
+    license_terms: U.S. Department of Energy public training material
+    acquire: true
+  - key: federal_reserve_g5a_exchange_rates_2025
+    role: eur_to_usd_currency_conversion
+    provider: Board of Governors of the Federal Reserve System
+    product: Foreign Exchange Rates - G.5A Annual
+    version: "release January 5, 2026; 2025 annual average"
+    url: https://www.federalreserve.gov/releases/g5a/20260105/
+    local_filename: techno_economic_sources/phase_d_20260924/federal_reserve_g5a_2025.html
+    license_terms: U.S. federal government public information; Federal Reserve website terms apply
+    acquire: true
+  - key: epa_thermal_discharges_npdes_2023
+    role: thermal_discharge_permitting_framework
+    provider: U.S. Environmental Protection Agency
+    product: Thermal Discharges in NPDES Permits - Overview of Resources and Tools
+    version: "June 2023"
+    url: https://www.epa.gov/system/files/documents/2023-07/Thermal-Discharges-Report.pdf
+    local_filename: environmental_sources/phase_e_20260924/epa_thermal_discharges_report_2023.pdf
+    license_terms: U.S. federal government public information
+    acquire: true
+  - key: epa_tennessee_water_quality_standards_2024
+    role: tennessee_surface_water_temperature_criteria
+    provider: U.S. Environmental Protection Agency
+    product: Tennessee Water Quality Standards - Chapter 0400-40-03
+    version: "EPA record current through June 20, 2024"
+    url: https://www.epa.gov/system/files/documents/2024-07/tn_wqs_0011_062024.pdf
+    local_filename: environmental_sources/phase_e_20260924/tennessee_water_quality_standards_2024.pdf
+    license_terms: U.S. federal and Tennessee state public regulatory information
+    acquire: true
+  - key: doe_orr_aser_2024
+    role: oak_ridge_environmental_and_permit_context
+    provider: U.S. Department of Energy
+    product: Oak Ridge Reservation Annual Site Environmental Report 2024
+    version: "DOE-SC-OSO/RM-2025; September 2025"
+    url: "https://doeic.science.energy.gov/aser/ASER2024/REPORT%20FULL%202024%20ASER%20FINAL.pdf"
+    local_filename: environmental_sources/phase_e_20260924/oak_ridge_reservation_aser_2024.pdf
+    license_terms: U.S. Department of Energy public environmental report
+    acquire: true
+
+audited_deferred_sources:
+  - key: era5_single_levels
+    role: modern_reanalysis_structural_replication
+    provider: Copernicus Climate Data Store
+    product: ERA5 hourly data on single levels
+    status: deferred
+    reason: CDS acquisition requires account acceptance and API credentials; the anonymously reproducible Phase F alternative is NCEP-DOE Reanalysis 2
+  - key: ceres_ebaf_4_2
+    role: observed_radiative_flux_context
+    provider: NASA Atmospheric Science Data Center
+    product: CERES EBAF Edition 4.2
+    doi: 10.5067/TERRA-AQUA-NOAA20/CERES/EBAF_L3B004.2
+    status: deferred
+    reason: Earthdata-authenticated acquisition is deferred; observed OLR will not be treated as a causal heat-disposal coefficient

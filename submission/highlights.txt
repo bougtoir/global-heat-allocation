@@ -1,0 +1,7 @@
+Highlights
+
+• Conserved heat allocation defines a global marginal screening bound
+• A peak-event 18-hour delay yields 54% of its spatial bound
+• Measured Frontier source heat totals 75,573.6 MWh-th
+• A constraint waterfall separates burden-space and delivered heat
+• No practical mode passes all case-specific evidence gates

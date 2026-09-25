@@ -1,0 +1,161 @@
+references:
+  - key: kalnay1996ncep
+    doi: "10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2"
+    supports: "NCEP/NCAR Reanalysis 1 architecture and characteristics"
+  - key: tatem2017worldpop
+    doi: "10.1038/sdata.2017.1"
+    supports: "WorldPop-style high-resolution global gridded population data"
+  - key: hersbach2020era5
+    doi: "10.1002/qj.3803"
+    supports: "ERA5 architecture, assimilation, and reanalysis characteristics"
+  - key: dinapoli2021era5heat
+    doi: "10.1002/gdj3.102"
+    supports: "Global gridded thermal-comfort indices can be derived from reanalysis"
+  - key: flanner2009anthropogenic
+    doi: "10.1029/2008GL036465"
+    supports: "Anthropogenic heat flux is spatially concentrated and can affect regional climate"
+  - key: chen2004anthropogenic
+    doi: "10.1029/2004GL019852"
+    supports: "Regional climate responses to anthropogenic heat have been modeled"
+  - key: li2022allocation
+    doi: "10.1016/j.cie.2022.108448"
+    supports: "Spatial allocation of thermal resources can be formulated with transportation theory and linear programming"
+  - key: guelpa2019storage
+    doi: "10.1016/j.apenergy.2019.113474"
+    supports: "Short- and long-duration thermal storage are established district-energy flexibility options"
+  - key: lund2014district
+    doi: "10.1016/j.energy.2014.02.089"
+    supports: "Low-temperature district heating integrates thermal resources and storage"
+  - key: peyre2019transport
+    doi: "10.1561/2200000073"
+    supports: "Computational optimal transport provides scalable regularized transport methods"
+  - key: john2022oceanmover
+    doi: "10.1098/rspa.2021.0875"
+    supports: "Optimal transport respects spatial displacement in oceanographic fields"
+  - key: parno2019seaice
+    doi: "10.1029/2019GL083037"
+    supports: "Regularized optimal transport has been applied to sea-ice dynamics"
+  - key: vissio2020wasserstein
+    doi: "10.1029/2020GL089385"
+    supports: "Wasserstein distance has been used to evaluate climate-model fields"
+  - key: buzan2015heatstress
+    doi: "10.5194/gmd-8-151-2015"
+    supports: "Heat-stress metrics differ materially and should be sensitivity-tested"
+  - key: liljegren2008wbgt
+    doi: "10.1080/15459620802310770"
+    supports: "WBGT can be modeled from standard meteorological measurements"
+  - key: stull2011wetbulb
+    doi: "10.1175/JAMC-D-11-0143.1"
+    supports: "Empirical wet-bulb approximation from air temperature and relative humidity"
+  - key: raymond2020heat
+    doi: "10.1126/sciadv.aaw1838"
+    supports: "Compound heat and humidity extremes are relevant to human tolerance"
+  - key: mora2017deadlyheat
+    doi: "10.1038/nclimate3322"
+    supports: "Population exposure to dangerous heat has global relevance"
+  - key: loeb2018ceres
+    doi: "10.1175/JCLI-D-17-0208.1"
+    supports: "CERES EBAF supplies observational TOA radiation fields, not causal heat-response derivatives"
+  - key: raman2014radiative
+    doi: "10.1038/nature13883"
+    supports: "Engineered radiative cooling can reject heat through the atmospheric window under specific device conditions"
+  - key: zhai2017radiative
+    doi: "10.1126/science.aai7899"
+    supports: "Scalable radiative-cooling materials reject heat only under specified device and sky conditions"
+  - key: chertow2007symbiosis
+    doi: "10.1162/jiec.2007.1110"
+    supports: "Industrial symbiosis exchanges by-product energy and materials between co-located actors"
+  - key: steffen2015boundaries
+    doi: "10.1126/science.1259855"
+    supports: "Environmental performance must be judged against multiple Earth-system boundaries rather than a single objective"
+  - key: hellweg2014lca
+    doi: "10.1126/science.1248361"
+    supports: "Life cycle assessment exists to reveal impacts displaced outside a narrow assessment boundary"
+  - key: finnveden2009lca
+    doi: "10.1016/j.jenvman.2009.06.018"
+    supports: "Life cycle assessment methodology addresses trade-offs across impact categories and life-cycle stages"
+  - key: laurent2012carbonfootprint
+    doi: "10.1021/es204163f"
+    supports: "Single-indicator environmental optimization can misrepresent overall environmental performance"
+  - key: zink2017rebound
+    doi: "10.1111/jiec.12545"
+    supports: "Well-intended circular strategies can produce rebound effects that offset expected environmental gains"
+  - key: korhonen2018circular
+    doi: "10.1016/j.ecolecon.2017.06.041"
+    supports: "Circular-economy concepts have documented conceptual and thermodynamic limitations"
+  - key: ryberg2018absolute
+    doi: "10.1111/jiec.12820"
+    supports: "Assessment methods that omit impact categories carry an explicit risk of burden shifting"
+  - key: moncaster2019burdenshifting
+    doi: "10.1016/j.jclepro.2019.03.171"
+    supports: "Partial-boundary decision tools can shift burden to life-cycle stages outside the tool boundary"
+  - key: gonzalezgaray2019burdenshifting
+    doi: "10.1016/j.jclepro.2019.04.276"
+    supports: "Optimizing energy systems for one environmental objective can shift burden to other impact categories"
+  - key: li2026datacenterburden
+    doi: "10.1016/j.jclepro.2026.149201"
+    supports: "Burden shifting in data-centre cooling has been analysed as a system-level water-energy-carbon trade-off"
+  - key: glavic2007sustainability
+    doi: "10.1016/j.jclepro.2006.12.006"
+    supports: "Cleaner production is defined by prevention rather than by relocation of emissions"
+  - key: shi2016cleanerproduction
+    doi: "10.1016/j.jclepro.2015.11.034"
+    supports: "Cleaner-production implementation is constrained by documented organisational and evidence barriers"
+  - key: forman2016wasteheat
+    doi: "10.1016/j.rser.2015.12.192"
+    supports: "A large share of global primary energy is released as low-temperature waste heat"
+  - key: papapetrou2018wasteheat
+    doi: "10.1016/j.applthermaleng.2018.04.043"
+    supports: "Technically available industrial waste heat is resolved by sector, temperature level, and country"
+  - key: brueckner2015wasteheat
+    doi: "10.1016/j.apenergy.2015.01.147"
+    supports: "Waste-heat transformation technologies are assessed with explicit technical and economic inputs"
+  - key: ebrahimi2014datacenter
+    doi: "10.1016/j.rser.2013.12.007"
+    supports: "Data-centre cooling produces low-grade waste heat with documented recovery opportunities"
+  - key: wahlroos2018datacenter
+    doi: "10.1016/j.rser.2017.10.058"
+    supports: "Data-centre waste heat utilisation depends on a matched receiving heat demand"
+  - key: ebrahimi2019datacenterwhr
+    doi: "10.1016/j.jclepro.2019.02.061"
+    supports: "Data-centre waste-heat recovery feasibility studies require case-specific thermoeconomic inputs"
+  - key: zhang2024datacentermismatch
+    doi: "10.1016/j.jclepro.2024.143466"
+    supports: "Data-centre waste-heat recovery is limited by temporal mismatch between availability and demand"
+  - key: fang2018industrycity
+    doi: "10.1016/j.jclepro.2018.05.045"
+    supports: "Industry-to-city excess-heat networks require technical, environmental, and economic evaluation of the delivery route"
+  - key: yang2021exergoenvironmental
+    doi: "10.1016/j.jclepro.2020.125679"
+    supports: "Waste-heat recovery designs are optimized against explicit exergo-environmental objectives"
+  - key: arpagaus2018heatpumps
+    doi: "10.1016/j.energy.2018.03.166"
+    supports: "High-temperature heat pumps upgrade low-grade heat within documented temperature and performance limits"
+  - key: raptis2016thermalpollution
+    doi: "10.1088/1748-9326/11/10/104011"
+    supports: "Thermal discharge from thermoelectric plants is a quantified global river thermal-pollution pressure"
+  - key: madden2013thermaleffluent
+    doi: "10.1088/1748-9326/8/3/035006"
+    supports: "Once-through cooling discharge measurably raises receiving-water temperature"
+  - key: cheng2017oceanheat
+    doi: "10.1126/sciadv.1601545"
+    supports: "The ocean accumulates anthropogenic heat rather than eliminating it"
+  - key: serreze2011arctic
+    doi: "10.1016/j.gloplacha.2011.03.004"
+    supports: "The cryosphere is disproportionately sensitive to added heat through amplification processes"
+  - key: mohai2009justice
+    doi: "10.1146/annurev-environ-082508-094348"
+    supports: "Environmental burdens are systematically displaced toward less populated or less powerful receiving areas"
+  - key: sherwood2010adaptability
+    doi: "10.1073/pnas.0913352107"
+    supports: "Human heat tolerance has physically defined limits under combined heat and humidity"
+  - key: frontier2024dataset
+    doi: "10.1038/s41597-024-03913-w"
+    supports: "Measured Frontier supercomputer waste-heat and power data are published as an auditable dataset"
+  - key: ornl2024wasteheatreport
+    doi: "10.2172/2329591"
+    supports: "Documented ORNL campus receiving-demand summaries and heat-pump case configurations"
+  - key: frontier2024figshare
+    doi: "10.6084/m9.figshare.24391240.v4"
+    registry: datacite
+    supports: "Versioned Figshare deposit holding the measured Frontier facility workbook used in this study"
